@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logocon">
+                 <img src="img/logo.png" alt="logo">
+            </div>
+
+            <div class="links">
+                 <a href="#">Home</a>
+                 <a href="services.html">Services</a>
+                 <a href="contact.html">Contact-us</a>
+                 <a href="login.html"  class="active">Account</a>
+                 <a href="postjob.html">Post a Job</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="body-main">
+
+        <div class="form_container">
+                    <h1>Welcome Onboard</h1>
+                    <p>To get started , please provide your details and select a role.</p>
+
+                    <form action="" class="signup">
+
+                        <div class="row">
+                             <span>Full Name</span>
+                             <input type="text" name="fullname" id="fullname" />
+                        </div>
+                        <div class="row">
+                             <span>Email Address</span>
+                             <input type="email" name="email" id="email" />
+                        </div>
+
+                        <div class="row">
+                             <span>Role</span>
+                             <select name="role" id="role">
+                                <option value="Job seaker">Job seaker</option>
+                                <option value="Job Poster">Job Poster</option>
+                             </select>
+                        </div>
+                        <div class="row">
+                            <span>Password</span>
+                            <input type="password" name="pass" id="pass" />
+                       </div>
+                        <div class="row btn-row">
+                             <button class="btn" type="submit">Get Started</button>
+                             <span class="login">Already have an account? <a href="./login.html" >Login Here</a></span>
+                        </div>
+
+                    </form>
+                
+        </div>
+         
+    </main>
+</body>
+</html>
